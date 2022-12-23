@@ -10,8 +10,9 @@ contract aboutAddress {
         Myaddress = _Newadd;
     } 
 
+
     function Messenger() public {
         Myaddress = msg.sender;
     }
-    
+
 }
