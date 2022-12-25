@@ -4,9 +4,9 @@ pragma solidity >0.8.12;
 
 contract firstCode {
 
-    uint256 public num;
+    uint public num;
 
-    function NewNum(uint256 _UpdatedNum) public {
+    function NewNum(uint _UpdatedNum) public {
         num = _UpdatedNum;
     }
 

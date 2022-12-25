@@ -4,9 +4,9 @@ pragma solidity >0.8.12;
 
 contract ViewAndPure {
 
-    uint256 public Number;
+    uint public Number;
 
-    function newNum(uint256 num) public {
+    function newNum(uint num) public {
        Number = num;
     }
     //calling View function
@@ -18,7 +18,7 @@ contract ViewAndPure {
 
     //calling Pure Function
 
-    function pureFunc(uint256 a , uint256 b) public pure returns(uint256) {
+    function pureFunc(uint a , uint b) public pure returns(uint) {
         return a+b;
     }
 
