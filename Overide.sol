@@ -11,7 +11,7 @@ contract Override {
 
     function ChangeString(uint tot ,string memory _newstring) public {
         totat_eth = tot;
-        if(tot < 0.1)
+        if(tot < 1)
         Mystring = _newstring;
     } 
 }
