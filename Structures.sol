@@ -6,7 +6,7 @@ pragma solidity > 0.8.14;
 contract Wallet {
 
     struct myStruct {
-            uint value;
+            uint values;
             address from;
     }
 
@@ -20,7 +20,7 @@ contract Wallet {
         //second way
 
 
-        payment.value = msg.value;
+        payment.values = msg.value;
         payment.from = msg.sender;
     }
 
