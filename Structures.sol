@@ -19,6 +19,7 @@ contract Wallet {
 
         //second way
 
+
         payment.value = msg.value;
         payment.from = msg.sender;
     }
