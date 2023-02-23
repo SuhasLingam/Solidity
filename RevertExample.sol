@@ -6,10 +6,11 @@ pragma solidity >0.7.0;
 
 contract RevertExample {
 
-    address public owner = msg.sender;
+    address public owner;
     uint public number;
 
     constructor() {
+        owner = msg.sender;
         number = 25;
     }
 
