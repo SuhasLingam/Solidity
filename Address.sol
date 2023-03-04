@@ -10,6 +10,9 @@ contract aboutAddress {
         Myaddress = _newAdd;
     }
     
+    
+    
+    
     function CheckBalance() public view returns(uint){
         return Myaddress.balance;
     }
