@@ -17,9 +17,8 @@ contract Wallet {
         //first way
         // myStruct = payable(msg.value , msg.sender); 
 
-        //second way
-
-
+        //second way 
+        
         payment.values = msg.value;
         payment.from = msg.sender;
     }
